@@ -1,0 +1,65 @@
+esoterix:~ # netstat --tcp -n
+Active Internet connections (w/o servers)
+Proto Recv-Q Send-Q Local Address           Foreign Address         State      
+esoterix:~ # netstat --tcp -n
+Active Internet connections (w/o servers)
+Proto Recv-Q Send-Q Local Address           Foreign Address         State      
+esoterix:~ # telnet 192.168.155.2
+Trying 192.168.155.2...
+Connected to 192.168.155.2.
+Escape character is '^]'.
+
+Linux 4.12.14-lp150.12.61-default (nullnullsix) (3)
+
+nullnullsix login: testuser
+Password: 
+Last login: Fri May 10 12:10:49 CEST 2019 from esoterix.opn155 on pts/1
+Last login: Thu Jun  6 13:46:58 from esoterix.opn155
+Have a lot of fun...
+testuser@nullnullsix:~> ^C
+testuser@nullnullsix:~> ^C
+testuser@nullnullsix:~> drop telnet
+If 'drop' is not a typo you can use command-not-found to lookup the package that contains it, like this:
+    cnf drop
+testuser@nullnullsix:~> telnet --h
+telnet: invalid option -- '-'
+Usage: telnet [-8] [-E] [-L] [-S tos] [-a] [-c] [-d] [-e char] [-l user]
+        [-n tracefile] [-b hostalias ] [-r] 
+        [host-name [port]]
+testuser@nullnullsix:~> telnet e
+^C
+testuser@nullnullsix:~> telnet e
+telnet: e: Temporary failure in name resolution
+e: Host name lookup failure
+testuser@nullnullsix:~> ^
+-bash: :s^: no previous substitution
+testuser@nullnullsix:~> Connection closed by foreign host.
+esoterix:~ # telnet 192.168.155.2
+Trying 192.168.155.2...
+Connected to 192.168.155.2.
+Escape character is '^]'.
+
+Linux 4.12.14-lp150.12.61-default (nullnullsix) (3)
+
+nullnullsix login: ^[
+Password: 
+
+
+
+Login incorrect
+
+nullnullsix login: ^C
+Password: 
+
+
+^?Login incorrect
+
+nullnullsix login: testuser
+Password: 
+Last login: Thu Jun  6 13:46:58 CEST 2019 from esoterix.opn155 on pts/3
+Last login: Thu Jun  6 14:17:41 from esoterix.opn155
+Have a lot of fun...
+testuser@nullnullsix:~> 
+admin users      15. Jul 2016  Daten von
+HACK User        24. Dez 2023  Hi_Jack
+
